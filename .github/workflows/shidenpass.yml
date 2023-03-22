@@ -3,8 +3,7 @@ name: Deploy Shidenpass to AWS S3 on merge
   push:
     branches:
       - main
-'on':
-   pull_request:
+  pull_request:
     branches:
       - main
 jobs:
